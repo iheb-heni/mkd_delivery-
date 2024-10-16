@@ -1,0 +1,44 @@
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #39d7d2; /* Navbar background color */
+    top: 0; /* Anchors the navbar at the top */
+    left: 0; /* Aligns the navbar to the left */
+    width: 100%; /* Full width */
+    z-index: 1030; /* Ensure it appears above other content */
+}
+.hero {
+    background-color: rgba(0, 0, 0, 0.495);
+    background-image: url('../imgs/her.jpg'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 200px 20px;
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+.hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: bold;
+}
+.card {
+    margin: 20px 0;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
